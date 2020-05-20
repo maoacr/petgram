@@ -1,9 +1,7 @@
 import { useEffect, useState, useRef } from 'react'
 
-export function useNearScreen () {  
-
+export function useNearScreen () {
   const element = useRef(null)
-
   const [show, setShow] = useState(false)
 
   useEffect(function () {
@@ -23,5 +21,5 @@ export function useNearScreen () {
     })
   }, [element])
 
-  return [ show, element ]
+  return [show, element]
 }
