@@ -5,8 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Petgram</title>
-</head>
+<meta name="theme-color" content="#b1a" /><link rel="manifest" href="/manifest.d8b97f00c27c3fb4850f9a80a6559096.json" /></head>
 <body>
   <div id='app'></div>
+  <noscript>
+    <h3>Esta app necesita Javascript para anunciar</h3>
+  </noscript>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('/service-worker.js')
+          .then(registration => {
+            console.log('SW registrado')
+          })
+          .catch(registrationError => {
+            console.log('SW error', registrationError)
+          })
+      })
+    }
+  </script>
 <script src="/app.bundle.js"></script></body>
 </html>

@@ -1,0 +1,43 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.6347ff3bd381b29aff5d609e848eb7d9.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.1b3dd1daeb0fae568378c939c236d79b.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_256x256.ec379c2f555469a2eae002ecb797de61.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.90b0066825ca5de6736df558ac2e3d28.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.6604c172e8ce4af7fbfa57c27d021c51.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.ea8ccf240813799ababb948f696bab65.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Petgram - Tu app de ftoos de mascotas",
+  "short_name": "Petgram - Tu app de ftoos de mascotas",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "shortname": "Petgram 🐶",
+  "description": "Con Petgram puedes encontrar fotos de animales domésticos my fácilmente",
+  "background_color": "#fff",
+  "theme_color": "#b1a"
+}
